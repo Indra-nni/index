@@ -1,0 +1,106 @@
+*{
+    background: #f9f3fc;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo{
+    padding-top: 10px;
+    width: 7%;
+}
+.main{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    position: absolute;
+    
+}
+.textArea{
+    border: none;
+    color: #0A3871;
+    margin-top: -10px;
+    margin-left: 100px;
+    width: 700px;
+    height: 390px;
+    resize: none;
+}
+::placeholder{ color: #0A5871; }
+    .text-area:focus{
+        outline: none
+}
+.mensaje{
+    width: 450px;
+    height: 480px;
+    left: 850px;
+    top: 20px;
+    border: none;
+    background: paleturquoise;
+    border-radius: 24px;
+    color: #0a3871;
+    position: absolute;
+    resize: none;
+}
+.mensaje{
+    background-image: url(muñeco.png);
+    background-position: 90px 10px;
+    background-size: 300px;
+    background-repeat: no-repeat;    
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    gap: 8px;
+    flex-direction: row;
+    
+}
+.btn-Encriptar:hover, .btn-Copiar:hover, .btn-Desencriptar:hover{
+    width: 360px;
+    height: 80px;
+    transition: 1s;
+}
+.btn-Encriptar{
+    background-color: #0f7ea0;
+    border: 1px solid #0f7ea0;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    left: 50px;
+    margin-left: 90px;
+    margin-top: -10px;
+}
+.btn-Desencriptar{
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    margin-top: -10px;
+}
+.btn-Copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    position: absolute;
+    width: 336px;
+    left: 915px;
+    top: 550px;
+}
+.reglas{
+    color: #495057;
+    font-size: 18px;
+    opacity: 80%;
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
